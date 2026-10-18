@@ -28,3 +28,7 @@ You must have `rest_command` services configured for your Sony Blu-ray player:
 ```yaml
 type: custom:mkraftman-sony-bluray-numpad
 ```
+
+## Releasing
+
+Bump the version in `VERSION` (e.g. `1.0.1`) and push to `main`. The release workflow creates the matching `vX.Y.Z` tag and GitHub release with `dist/mkraftman-sony-bluray-numpad.js` attached. Pushing a `vX.Y.Z` tag directly also still works.
